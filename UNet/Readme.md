@@ -60,10 +60,10 @@ def Nest_Net(input_shape=(224, 224, 3), num_class=1, deep_supervision=False):
         
     return model
 ```  
-> 시각화된 UNet의 구조와 일치하는 레이어 번호로 주석을 달아 주셔서 모델 구조 파악이 용이했습니다.
+시각화된 UNet의 구조와 일치하는 레이어 번호로 주석을 달아 주셔서 모델 구조 파악이 용이했습니다.
 
 - [x] 3.코드가 에러를 유발할 가능성이 있나요?
->  없는 것 같습니다.
+없는 것 같습니다.
 - [x] 4.코드 작성자가 코드를 제대로 이해하고 작성했나요?
 ```python
 class KittiGenerator(tf.keras.utils.Sequence):
@@ -90,7 +90,7 @@ class KittiGenerator(tf.keras.utils.Sequence):
         # load_dataset()을 통해서 kitti dataset의 directory path에서 라벨과 이미지를 확인합니다.
         self.data = self.load_dataset()
 ```
-> generator를 이용해 전처리과정을 진행하는 과정을 이해하시고 상세히 기술해주셔서 많은 도움이 되었습니다!
+generator를 이용해 전처리과정을 진행하는 과정을 이해하시고 상세히 기술해주셔서 많은 도움이 되었습니다!
 
 - [x] 5.코드가 간결한가요?
 ```python
@@ -106,4 +106,4 @@ def standard_unit(input_tensor, stage, nb_filter, kernel_size=3):
 
     return x
 ```
-> standard_unit을 선언하여 불필요한 반복이 줄었습니다.
+standard_unit을 선언하여 불필요한 반복이 줄었습니다.
