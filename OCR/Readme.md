@@ -30,7 +30,8 @@ def decode_predict_ctc(out, chars = TARGET_CHARACTERS):
     )[0]
     # 코드 생략
 '''
-맨 위에서 변환할 문자를 정의할때 TARGET_CHARACTERS = ENG_CHAR_UPPER + NUMBERS을 통해 ABCD~789 순서 있게 된다. 이때 -1은 TARGET_CHARACTERS의 맨 뒤에서 첫번째 숫자 9를 가르키게 되어 빈 레이블(-1)이 9로 디코딩 된다.
+맨 위에서 변환할 문자를 정의할때 TARGET_CHARACTERS = ENG_CHAR_UPPER + NUMBERS을 통해 ABCD~789 순서 있게 된다.
+이때 -1은 TARGET_CHARACTERS의 맨 뒤에서 첫번째 숫자 9를 가르키게 되어 빈 레이블(-1)이 9로 디코딩 된다.
 '''
 ```  
 >  네, 특히 출력 뒷부분에 999가 나오는 부분을 해결하시고 설명해주셔서 저도 도움을 받았습니다.
