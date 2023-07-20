@@ -1,4 +1,4 @@
-# 제목 : 
+# 제목 : End-to-End OCR
 
 # AIFFEL Campus Online 4th Code Peer Review Templete
 - 코더 : 이효준
